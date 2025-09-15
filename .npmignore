@@ -1,0 +1,38 @@
+# Source files
+src/
+tests/
+scripts/
+
+# Development files
+.eslintrc.json
+jest.config.js
+rollup.config.js
+tsconfig.json
+
+# Git and documentation
+.git/
+.gitignore
+.github/
+
+# Development dependencies and files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (keep only dist/)
+coverage/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+.cache/
